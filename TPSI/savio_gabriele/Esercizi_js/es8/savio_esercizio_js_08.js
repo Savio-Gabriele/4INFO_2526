@@ -26,7 +26,7 @@ function add() {
     spanPriority.innerText = priorityIcon;
     li.append(spanPriority);
 
-    let btnDone = document.createElement("button");
+    let btnDone = document.createElement("span");
     btnDone.className = "done material-icons";
     btnDone.innerText = "done_outline";
     btnDone.onclick = function() {
@@ -34,7 +34,7 @@ function add() {
     };
     li.append(btnDone);
 
-    let btnTrash = document.createElement("button");
+    let btnTrash = document.createElement("span");
     btnTrash.className = "trash material-icons";
     btnTrash.innerText = "delete_outline";
     btnTrash.onclick = function() {
@@ -48,3 +48,4 @@ function add() {
     alert("Inserisci un todo!");
   }
 }
+
