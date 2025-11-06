@@ -4,7 +4,7 @@ username === null && alert("Operazione annullata");
 username !== null && (username === "Admin" || alert("I don't know you"));
 
 username === "Admin" &&
-  ((password = prompt("Enter your password:")),
-  password === null && alert("Canceled"),
-  password !== null && password !== "Agnell1no" && alert("Wrong password"),
-  password === "Agnell1no" && alert("Welcome!"));
+  ((password = prompt("Inserisci la tua password")),
+  password === null && alert("cancellato"),
+  password !== null && password !== "Agnell1no" && alert("Password errata"),
+  password === "Agnell1no" && alert("Benvenuto!"));
